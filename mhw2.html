@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike</title>
-    <link rel="stylesheet" href="mhw2.css">
-    <link rel="icon" type="image/x-icon" sizes="32x32" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="mhw2.css" />
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
+
+    <script src="mhw2.js" defer></script>
 </head>
 
 <body>
@@ -92,13 +94,42 @@
 
             <div class="user-tools-container">
 
-                <div class="desktop-search-bar">
-                    <img src="/assets/icons/search-icon.svg" alt="Cerca" class="search-icon">
-                    <input type="text" class="search-bar" placeholder="Cerca">
-                </div>
+                <div id="search-bar-container">
+                    <div class="search-header">
+                        <div class="swoosh">
+                            <a class="link-item swoosh-link" href="/mhw1.html">
+                                <img class="link-img swoosh-icon" src="/assets/icons/icon.svg" alt="Nike" />
+                            </a>
+                        </div>
+    
+                        <div class="desktop-search-bar">
+                            <img src="/assets/icons/search-icon.svg" alt="Cerca" class="search-icon">
+                            <input type="text" class="search-bar" placeholder="Cerca">
+                        </div>
+    
+                        <div class="close-search">
+                            <button class="close-search-btn">
+                             Annulla
+                            </button>
+                        </div>
+                    </div>                    
 
-                <div class="icon-button search-button">
-                    <img src="/assets/icons/search-icon.svg" alt="Cerca">
+                    <div class="search-results">
+                        <div class="search-content">
+                            <p>I termini più ricercati</p>
+                            <div class="search-tags">
+                                <span class="search-tag button">air force 1</span>
+                                <span class="search-tag button ">jordan 4</span>
+                                <span class="search-tag button">dunk</span>
+                                <span class="search-tag button">jordan</span>
+                                <span class="search-tag button">dunk low</span>
+                                <span class="search-tag button">scarpe da calcio</span>
+                                <span class="search-tag button">tn</span>
+                                <span class="search-tag button">field general</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="icon-button favorites-button">
@@ -212,6 +243,16 @@
                         <a class="button">Acquista</a>
                     </div>
                 </article>
+            </div>
+        </div>
+
+        <div id="slider-container">
+            <div class="slider-header">
+                <h2>Acquista le nostre icone</h2>
+                <div class="slider-controls">
+                    <button class="slider-btn prev"></button>
+                    <button class="slider-btn next"></button>
+                </div>
             </div>
         </div>
 
