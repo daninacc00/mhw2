@@ -24,13 +24,6 @@ L'obiettivo di **HMW2** è estendere la pagina creata nel MHW1 con funzionalità
 ✔ **Mostrare/nascondere elementi con classi CSS e `display`**  
 ✔ **Utilizzo di attributi `data-*` per memorizzare informazioni**  
 
-### Esempi di funzionalità implementabili
-
-- Pulsante "Leggi di più" per mostrare/nascondere contenuti.
-- Cambio dinamico di immagini quando l'utente clicca o passa sopra certi elementi.
-- Aggiunta della classe "preferito" per evidenziare elementi selezionati.
-- Uso di `data-*` per visualizzare informazioni aggiuntive interagendo con la pagina.
-
 ## 📸 Screenshot delle funzionalità
 
 ![image](https://github.com/user-attachments/assets/8c1d5d86-31d9-42fa-a921-706000a21617)
