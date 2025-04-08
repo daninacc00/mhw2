@@ -1,6 +1,8 @@
 function onOpenSearch(event) {
     const container = event.currentTarget;
     container.classList.add("search-open");
+
+    document.body.style.overflow = 'hidden';
     document.addEventListener("click", onCloseSearchOutside);
 }
 
@@ -9,6 +11,7 @@ function onCloseSearch(event) {
     let container = document.querySelector("#search-bar-container");
     container.classList.remove("search-open");
 
+  document.body.style.overflow = 'auto';
     document.removeEventListener("click", onCloseSearchOutside);
 }
 

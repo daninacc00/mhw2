@@ -316,18 +316,28 @@ button {
     max-width: 60%;
 }
 
-/* Contenuto del menu */
-.search-content {
-    max-width: 800px;
-    margin: 0 auto;
+.search-results{
+    width: 100%;
+    margin-top: 48px;
 }
 
-/* Tag di ricerca */
+.search-content {
+    min-width: 60%;
+    margin: 0 auto;
+    padding: 8px 24px;
+}
+
+.search-content p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #707072;
+}
+
 .search-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 12px;
+    margin-top: 12px;
 }
 
 .search-tag {
@@ -335,9 +345,12 @@ button {
     padding: 8px 12px;
     border-radius: 20px;
     cursor: pointer;
+    font-weight: 600;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
 }
 
-/* Bottone di chiusura */
 .close-search-btn {
     background: none;
     border: none;
